@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="vendors/CSS/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/CSS/grid.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300italic,400,700" rel="stylesheet">
+        <title>Jonathan Bennett Design Portfolio 2018</title>
+
+            <link rel="shortcut icon" href="CSS/faviconit/favicon.ico">
+            <link rel="icon" sizes="16x16 32x32 64x64" href="CSS/faviconit/favicon.ico">
+            <link rel="icon" type="image/png" sizes="196x196" href="CSS/faviconit/favicon-192.png">
+            <link rel="icon" type="image/png" sizes="160x160" href="CSS/faviconit/favicon-160.png">
+            <link rel="icon" type="image/png" sizes="96x96" href="CSS/faviconit/favicon-96.png">
+            <link rel="icon" type="image/png" sizes="64x64" href="CSS/faviconit/favicon-64.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="CSS/faviconit/favicon-32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="CSS/faviconit/favicon-16.png">
+            <link rel="apple-touch-icon" href="CSS/faviconit/favicon-57.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="CSS/faviconit/favicon-114.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="CSS/faviconit/favicon-72.png">
+            <link rel="apple-touch-icon" sizes="144x144" href="CSS/faviconit/favicon-144.png">
+            <link rel="apple-touch-icon" sizes="60x60" href="CSS/faviconit/favicon-60.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="CSS/faviconit/favicon-120.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="CSS/faviconit/favicon-76.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="CSS/faviconit/favicon-152.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="CSS/faviconit/favicon-180.png">
+            <meta name="msapplication-TileColor" content="#FFFFFF">
+            <meta name="msapplication-TileImage" content="/favicon-144.png">
+            <meta name="msapplication-config" content="/browserconfig.xml">
+
+        <script src="js/van-animation.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+        <script>
+                $('stop-sign-graphic').click(function(event) {
+                    $('van-graphic').addClass('slidein-animation');
+                });
+        </script>
+
+
+
+        <script>
+            $(document).ready(function(){
+                $('a[href^="#"]').on('click', function (e) {
+                    e.preventDefault();
+
+                    var target = this.hash;
+                    var $target = $(target);
+
+                    $('html, body').animate({
+                        'scrollTop': $target.offset().top
+                    }, 500, 'swing');
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div></div>
+                    <ul class="navbar" style="text-align: right;">
+                        <li><a class="active" href="./index.html">Home</a></li>
+                        <li><a href="#Work">Work</a></li>
+                        <li><a href="./resume.html">re&#769sume&#769</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero-text">
+                <h1>Jonathan Bennett</h1>
+                <h2>Industrial <span>|</span> UX Designer</h2>
+            </div>
+            <div class="date">
+                <p>Fall 2018 <span>|</span> Let's build something together.</p>
+            </div>
+        </header>
+        <section class="section-experience">
+            <div class="row">
+                <h3>I would like to join your team.</h3>
+                <p>Can you change this element? &nbsp; <span>Yes.</span> &nbsp; We need you on CAD. &nbsp; <span>Sweet.</span> &nbsp; These images need to be Photoshopped. &nbsp; <span>On it.</span> &nbsp;
+                Would you update these graphics? &nbsp; <span>Will do.</span> &nbsp; Tradeshow is next month. &nbsp; <span>Send me.</span> &nbsp; We only have 20 minutes. &nbsp; <span>Done.</span></p> 
+                <h4>I embrace dynamic environments, and I look forward to solving problems with your team.</h4>
+            </div>
+        </section>
+        <section class="section-work">
+            <div id="Work">
+                <h3>My work.</h3>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="work-box">
+                        <h6>Industrial</h6>
+                        <a href="id-work.html" class="btn">View Work</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="work-box">
+                        <h6>UX</h6>
+                        <a href="#" class="btn">View Work</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="work-box">
+                        <h6>Other</h6>
+                        <a href="#" class="btn">View Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about-me">
+            <div class="row">
+                <h3>About me.</h3>
+                <div class="row">
+                    <p>A creative soul. An intentioned mind. A moving body. To paint a general picture, I am someone who enjoys the beauty 
+                         of creation and expression, and I am dedicated to lifelong learning. I make music with my guitar, I challenge my mind and body with sequences 
+                        in rock climbing, I relish in creating good food, and a good pun, and I have a spirit for adventure. All of which are better in the company 
+                        of friends, family, and teammates &mdash; my favorite part of life.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="section-footer">
+                <ul class="footerbar" style="text-align: right;">
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="./resume.html">re&#769sume&#769</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="signature">
+                    <p>Fall 2018 <span>|</span> Jonathan Bennett</p>
+                </div>
+                <div class="row">
+                    <p class="van-text">Current project:</p>
+                </div>
+                <div class="row">
+                    <div class="stop-sign-graphic">
+                        <img src="css/img/stop-sign-icon-21.svg" alt="stop sign graphic" title="Stop Sign">
+                    </div>
+                    <div class="van-graphic">
+                        <a href="https://creatingcaroline.com" target="_blank"><img src="css/img/caroline-van-icon-01.svg" alt="caroline travel van graphic" title="Creating Caroline"></a>
+                        <div id="slidein-animation"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+

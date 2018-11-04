@@ -1,0 +1,45 @@
+/* ---------- TOOLS ---------- */
+
+.section-tools {
+    background-color: rgb(243, 243, 243);
+}
+
+.section-tools img {
+    width: 25%;
+    height: auto;
+}
+
+.tools-img {
+    margin-left: 15px;
+}
+
+.other-tools:before {
+    display: block;
+    height: 1px;
+    background-color: rgb(158, 158, 158);
+    content: " ";
+    width: 65%;
+    margin: 20px 0 20px 6%;
+}
+
+.section-tools h5 {
+    margin-right: 80px;
+}
+
+.section-tools h5:first-child { margin-top: 112px }
+
+.section-tools h5:last-child {
+    margin-top: 210px;
+    margin-bottom: -40px;
+}
+
+.section-tools h5:last-child:before {
+    display: block;
+    height: 1px;
+    background-color: rgb(158, 158, 158);
+    content: " ";
+    width: 25%;
+    margin-left: 355px;
+    margin-top: -60px;
+    margin-bottom: 55px;
+}

@@ -1,0 +1,358 @@
+/* ----------------------------------------------------------- */
+/* ---------- BASIC SET UP ---------- */
+/* ----------------------------------------------------------- */
+
+html,
+body {
+    background-color: #fff;
+    color: #303030;
+    font-family: 'Lato', 'arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 22px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* ----------------------------------------------------------- */
+/* ---------- REUSABLE COMPONENTS ---------- */
+/* ----------------------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+section {
+    padding: 60px 0;
+}
+
+p {
+    line-height: 155%;
+    padding: 0 20px;
+}
+/* ---------- HEADERS ---------- */
+
+h1 {
+    font-weight: 100;
+    font-size: 65px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 145%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+h3:after {
+    display: block;
+    height: 1px;
+    background-color: #EC407A;
+    content: " ";
+    width: 75px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 100%;
+    text-align: center;
+    color: #EC407A;
+    margin-top: 120px;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 200%;
+    text-align: right;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 170%;
+    text-align: center;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #303030;
+    border: 1px solid #EC407A;
+    border-radius: 12px;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #fff;
+    color: #EC407A;
+}
+
+.navbar {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.navbar li {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.navbar li a:link,
+.navbar li a:visited {
+    padding: 6px 0;
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 90%;
+    font-weight: 300;
+    transition: color 0.2s;
+}
+
+.navbar li a:hover,
+.navbar li a:active { color: #EC407A; }
+
+.navbar li a.active:link,
+.navbar li a.active:active {
+    color: #EC407A;
+}
+
+.navbar li a.active:hover,
+.navbar li a.active:visited {
+    color: #EC407A;
+}
+
+/* ----------------------------------------------------------- */
+/* ---------- HEADER ---------- */
+/* ----------------------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(img/jonathan-bennett-portfolio-main-image-2018.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.date {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.date p {
+    color: #aaa;
+    font-size: 80%;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.date span { color: #EC407A }
+
+.hero-text {
+    height: 30em;
+}
+
+.hero-text h1 {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h2 {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -130%);
+}
+
+h2 span {
+    color: #EC407A;
+    font-weight: 100;
+}
+
+/* ----------------------------------------------------------- */
+/* ---------- BODY ---------- */
+/* ----------------------------------------------------------- */
+
+/* ---------- JOIN YOUR TEAM ---------- */
+
+.section-experience span {
+    font-weight: 400;
+    color: #EC407A;
+}
+
+.section-experience p {
+    margin-top: 60px;
+}
+
+
+/* ---------- MY WORK ---------- */
+
+.section-work {
+    background-color: rgb(243, 243, 243);
+}
+
+.work-box {
+    background-color: rgb(243, 243, 243);
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 5%;
+    height: 450px;
+    margin-top: -45px;
+    box-shadow: inset 0 7em 10em -5em rgba(255,255,255,0.6),
+    0 0.3em 0.5em -0.2em rgba(100,100,100,1),
+    0 1em 2em -0.75em rgba(100,100,100,0.75),
+    0 1em 3em -0.5em rgba(100,100,100,0.5),
+    0 3em 3em -0.25em rgba(100,100,100,0.2);
+   
+    margin-bottom: 60px;
+}
+
+.work-box .btn {
+    font-weight: 700;
+    font-size: 90%;
+    width: 30.3%;
+    margin-left: 25%;
+    transform: translate(0, 320%);
+}
+
+.work-box h6 { transform: translate(0, 110%) }
+
+.work-box h6:after {
+    display: block;
+    height: 1px;
+    background-color: #303030;
+    content: " ";
+    width: 45px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* ---------- ABOUT ME ---------- */
+
+.section-about-me {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(img/jonathan-bennett-portfolio-van-content-image-2018.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 78vh;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin-bottom: -50px;
+}
+
+.section-about-me h3 { color: #fff }
+
+.section-about-me p {
+    color: #fff;
+    font-size: 115%;
+    letter-spacing: .5px;
+    font-weight: 300;
+    padding: 0 20px;
+}
+
+/* ----------------------------------------------------------- */
+/* ---------- FOOTER ---------- */
+/* ----------------------------------------------------------- */
+
+footer {
+    background-color: #020202;
+    margin-top: -20px;
+    height: 100px;
+}
+
+.footerbar {
+    list-style: none;
+}
+
+.footerbar li {
+    display: inline-block;
+    margin-top:30px;
+    margin-right: 40px;
+}
+
+.footerbar li a:link,
+.footerbar li a:visited {
+    padding: 6px 0;
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 90%;
+    font-weight: 300;
+    transition: color 0.2s;
+}
+
+.footerbar li a:hover,
+.footerbar li a:active { color: #EC407A; }
+
+.footerbar li a.active:link,
+.footerbar li a.active:active {
+    color: #EC407A;
+}
+
+.footerbar li a.active:hover,
+.footerbar li a.active:visited {
+    color: #EC407A;
+}
+
+.signature p {
+    color: #aaa;
+    font-size: 80%;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: -48px;
+    margin-left: 20px;
+}
+
+.signature span { color: #EC407A }
+
+.van-text {
+    margin-top: -55px;
+    margin-left: 340px;
+    font-style: italic;
+}
+
+
+.stop-sign-graphic {
+    width: 70px;
+    margin-top: -220px;
+    margin-left: 590px;
+}
+
+.van-graphic {
+    width: 450px;
+    margin-top: -220px;
+    margin-left: 1560px;
+    animation-name: slidein;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+
+    0%{ transform: rotate(0deg) }
+
+    90%{ transform: translateX(-1025px) rotate(1deg); }
+
+    100%{ transform: translateX(-1030px) rotate(0deg) }
+}
