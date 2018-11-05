@@ -1,0 +1,197 @@
+/* ----------------------------------------------------------- */
+/* ---------- BASIC SET UP ---------- */
+/* ----------------------------------------------------------- */
+
+html,
+body {
+    color: #303030;
+    font-family: 'Lato', 'arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 22px;
+    text-rendering: optimizeLegibility;
+}
+
+/* ----------------------------------------------------------- */
+/* ---------- REUSABLE COMPONENTS ---------- */
+/* ----------------------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* ---------- HEADERS ---------- */
+
+h1 { 
+    font-weight: 300;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 { 
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: .3px;
+}
+
+h2 span {
+    font-weight: 300;
+    color: #EC407A
+}
+
+h2::after {
+    border-bottom: solid 1px #EC407A;
+    border-bottom-width: 58px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    line-height: 155%;
+    letter-spacing: .5px;
+}
+
+/* ---------- NAVBAR ---------- */
+
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 40px;
+    padding: 20px 0;
+}
+
+.navbar li a:link,
+.navbar li a:visited {
+    padding: 6px 0;
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 90%;
+    font-weight: 300;
+    transition: color 0.2s;
+}
+
+.navbar li a:hover,
+.navbar li a:active { color: #EC407A; }
+
+.navbar li a.active:link,
+.navbar li a.active:active {
+    color: #EC407A;
+}
+
+.navbar li a.active:hover,
+.navbar li a.active:visited {
+    color: #EC407A;
+}
+
+/* ----------------------------------------------------------- */
+/* ---------- STICKY BOX ---------- */
+/* ----------------------------------------------------------- */
+
+.info-container { 
+    background-color: rgb(243, 243, 243);
+    width: 435px;
+    height: 3750px;
+    position: absolute;
+}
+
+.sticky-info {
+    display: block;
+    width: 435px;
+    height: 3750px;
+    margin-top: 60px;
+    color: #303030;
+}
+
+.sticky-info img {
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 2px #fff;
+    position: sticky;
+    top: 5rem;
+}
+
+.sticky-text {
+position: sticky;
+top: 13.675rem;
+}
+
+/* ----------------------------------------------------------- */
+/* ---------- RESUME ---------- */
+/* ----------------------------------------------------------- */
+
+.svg-resume {
+    width: 1140px;
+    margin-top: -1px;
+}
+
+.resume-position { position: absolute; }
+
+/* ----------------------------------------------------------- */
+/* ---------- FOOTER ---------- */
+/* ----------------------------------------------------------- */
+
+footer {
+    background-color: #020202;
+    margin-top: -75px;
+    height: 100px;
+}
+
+.footerbar {
+    list-style: none;
+}
+
+.footerbar li {
+    display: inline-block;
+    margin-top:30px;
+    margin-right: 40px;
+}
+
+.footerbar li a:link,
+.footerbar li a:visited {
+    padding: 6px 0;
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 90%;
+    font-weight: 300;
+    transition: color 0.2s;
+}
+
+.footerbar li a:hover,
+.footerbar li a:active { color: #EC407A; }
+
+.signature p {
+    color: #aaa;
+    font-size: 80%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: -45px;
+    margin-left: 40px;
+}
+
+.footerbar li a.active:link,
+.footerbar li a.active:active {
+    color: #EC407A;
+}
+
+.footerbar li a.active:hover,
+.footerbar li a.active:visited {
+    color: #EC407A;
+}
+
+.signature span { color: #EC407A }
