@@ -34,7 +34,7 @@ h1:after {
     height: 1px;
     background-color: #303030;
     content: " ";
-    width: 355px;
+    width: 365px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -174,8 +174,30 @@ p span {
     color: #EC407A
 }
 
-/* ---------- SLIDESHOW ---------- */
+.bottom-nav {
+    font-weight: 400;
+    margin-bottom: -20px;
+}
 
+.bottom-nav::before {
+    display: block;
+    height: 1px;
+    width: 260px;
+    background-color: rgb(202, 202, 202);
+    content: " ";
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.bottom-nav a:link,
+.bottom-nav a:visited {
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.bottom-nav a:hover,
+.bottom-nav a:active { color: #EC407A; }
 
 /* ----------------------------------------------------------- */
 /* ---------- FOOTER ---------- */
