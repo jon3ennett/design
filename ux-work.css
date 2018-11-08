@@ -124,6 +124,12 @@ h4 span {
     color: #EC407A;
 }
 
+.left-navbar {
+    margin-top: -67px;
+    margin-left: 30px;
+    color: #aaa
+}
+
 /* ----------------------------------------------------------- */
 /* ---------- BODY ---------- */
 /* ----------------------------------------------------------- */
@@ -144,10 +150,6 @@ h4 span {
     text-align: center;
 }
 
-.center-low-margin {
-    text-align: center;
-    margin-bottom: -50px;
-}
 
 .center-title {
     text-align: center;
@@ -158,13 +160,6 @@ p {
     margin-top: 30px;
     margin-bottom: 70px;
     line-height: 150%;
-}
-
-#doc-text { 
-    text-align: center;
-    margin-top: -20px;
-    padding: 20px 0 70px 0;
-    margin-bottom: 5px;
 }
 
 p span {
@@ -179,29 +174,13 @@ p span {
     margin-bottom: 10px;
 }
 
-.version-update-2 img {
-    margin-top: 10px;
+.home-image {
+    margin-top: -60px;
 }
 
-.feedback::before {
-    display: block;
-    height: 1px;
-    background-color: #303030;
-    content: " ";
-    width: 355px;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-
-.web-layout::before {
-    display: block;
-    height: 1px;
-    width: 220px;
-    content: " ";
-    background-color: rgb(202, 202, 202);
-    margin: 0 auto;
-    margin-top: 20px;
-}
+.content-dev {
+    margin-bottom: -130px;
+    margin-top: 90px;
 }
 
 .section-full-width a {
@@ -261,7 +240,7 @@ footer {
     text-decoration: none;
     text-transform: lowercase;
     font-size: 90%;
-    font-weight: 300;
+    font-weight: 400;
     transition: color 0.2s;
 }
 
