@@ -110,6 +110,12 @@ h4 span {
     color: #EC407A;
 }
 
+.left-navbar {
+    margin-top: -67px;
+    margin-left: 30px;
+    color: #aaa
+}
+
 /* ----------------------------------------------------------- */
 /* ---------- BODY ---------- */
 /* ----------------------------------------------------------- */
@@ -226,7 +232,7 @@ footer {
     text-decoration: none;
     text-transform: lowercase;
     font-size: 90%;
-    font-weight: 300;
+    font-weight: 400;
     transition: color 0.2s;
 }
 
