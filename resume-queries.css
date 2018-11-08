@@ -1,6 +1,10 @@
 /* Big tablet to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
 
+    .mobile-img {
+        display: none;
+    }
+
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -18,9 +22,12 @@
         margin-top: -1px;
     }
 
+    .mobile-img {
+        display: none;
+    }
+
     .info-container { 
-        width: 325px;
-        height: 2810px;
+    display: none;
     }
 
     .sticky-info {
@@ -55,11 +62,11 @@
 
     .sticky-info {
         width: 50px;
+        height: 30px;
     }
 
     .sticky-info img {
         display: none;
-        width: 0px;
     }
 
     .sticky-text {
@@ -67,7 +74,16 @@
     }
 
     .info-container {
-        width: 50px;
+        width: 12.85%;
+        color: #ffffff;
+    }
+
+    .svg-resume {
+        display: none;
+    }
+
+    .mobile-img {
+        display: initial;
     }
     
     .row,
