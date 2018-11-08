@@ -104,6 +104,7 @@ h3 {
     width: 435px;
     height: 3750px;
     position: absolute;
+    z-index: -1;
 }
 
 .sticky-info {
