@@ -141,7 +141,7 @@ h6 {
 /* ----------------------------------------------------------- */
 
 header {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(jonathan-bennett-portfolio-main-image-2018.png);
+    background-image:url(jonathan-bennett-portfolio-main-image-2018.jpg);
     background-size: cover;
     background-position: top;
     height: 100vh;
@@ -274,7 +274,7 @@ h2 span {
 /* ---------- ABOUT ME ---------- */
 
 .section-about-me {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(jonathan-bennett-portfolio-van-content-image-2018.png);
+    background-image: url(jonathan-bennett-portfolio-van-content-image-2018.jpg);
     background-size: cover;
     background-position: center;
     -o-background-size: cover;
