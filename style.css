@@ -209,6 +209,9 @@ h2 span {
 
 .section-experience p {
     margin-top: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
 }
 
 
@@ -354,20 +357,20 @@ footer {
 
 .van-text {
     margin-top: -55px;
-    margin-left: 340px;
+    margin-left: 320px;
     font-style: italic;
 }
 
 
 .stop-sign-graphic {
-    width: 70px;
-    margin-top: -220px;
-    margin-left: 590px;
+    width: 55px;
+    margin-top: -170px;
+    margin-left: 550px;
 }
 
 .van-graphic {
-    width: 450px;
-    margin-top: -220px;
+    width: 350px;
+    margin-top: -160px;
     margin-left: 1560px;
     animation-name: slidein;
     animation-duration: 1.5s;
