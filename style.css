@@ -147,6 +147,9 @@ header {
     height: 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     overflow: hidden;
 }
 
@@ -274,6 +277,9 @@ h2 span {
     background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(jonathan-bennett-portfolio-van-content-image-2018.jpg);
     background-size: cover;
     background-position: center;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     height: 78vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
