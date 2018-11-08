@@ -146,6 +146,7 @@ header {
     background-position: top;
     height: 100vh;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
@@ -275,6 +276,7 @@ h2 span {
     background-position: center;
     height: 78vh;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     overflow: hidden;
     margin-bottom: -50px;
 }
