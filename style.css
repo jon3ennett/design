@@ -146,11 +146,11 @@ header {
     background-position: top;
     height: 100vh;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size:cover;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 .date {
@@ -282,9 +282,9 @@ h2 span {
     -webkit-background-size:cover;
     height: 78vh;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     overflow: hidden;
     margin-bottom: -50px;
+    background-repeat: no-repeat;
 }
 
 .section-about-me h3 { color: #fff }
