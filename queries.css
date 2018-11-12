@@ -6,13 +6,18 @@
     }
     
     
-    .stop-sign-graphic {
-      display: none;
+    .mountain-road-graphic {
+      width: 98%;
+      margin-left: 1%;
+      margin-top: -32%;
+    }
+
+    .van-graphic {
+        width: 30%;
+        margin-top: -15.5%;
+        margin-left: 48%;
     }
     
-    .van-graphic {
-     display: none;
-    }
 }
 
 
@@ -31,14 +36,14 @@
         transform: translate(0, 80px);
     }
 
-    body { font-size: 18px; }
+    body { font-size: 20px; }
     section { padding: 60px 0; }
 
 }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    body { font-size: 16px; }
+    body { font-size: 20px; }
     section { padding: 30px 0; }
     
     .row,
