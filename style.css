@@ -283,7 +283,7 @@ h2 span {
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size:cover;
-    height: 78vh;
+    height: 100vh;
     background-attachment: fixed;
     overflow: hidden;
     margin-bottom: -50px;
@@ -357,31 +357,20 @@ footer {
 
 .van-text {
     margin-top: -55px;
-    margin-left: 320px;
+    text-align: center;
     font-style: italic;
+    font-size: 80%;
 }
 
 
-.stop-sign-graphic {
-    width: 55px;
-    margin-top: -170px;
-    margin-left: 550px;
+.mountain-road-graphic {
+    width: 1140px;
+    margin-top: -370px;
+    margin-left: -7px;
 }
 
 .van-graphic {
     width: 350px;
-    margin-top: -160px;
-    margin-left: 1560px;
-    animation-name: slidein;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes slidein {
-
-    0%{ transform: rotate(0deg) }
-
-    90%{ transform: translateX(-1025px) rotate(1deg); }
-
-    100%{ transform: translateX(-1030px) rotate(0deg) }
+    margin-top: -180px;
+    margin-left: 525px;
 }
