@@ -183,6 +183,15 @@ p span {
     margin-top: 90px;
 }
 
+.site-implementation {
+    margin-bottom: -130px;
+    margin-top: -10px;
+}
+
+.backend-img {
+    margin-bottom: 90px;
+}
+
 .section-full-width a {
     text-decoration: none;
     color: #EC407A
