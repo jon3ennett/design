@@ -47,16 +47,16 @@ body {
 }
 
 .navbar li a:hover,
-.navbar li a:active { color: #EC407A; }
+.navbar li a:active { color: #FF3366; }
 
 .navbar li a.active:link,
 .navbar li a.active:active {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .navbar li a.active:hover,
 .navbar li a.active:visited {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 /* ---------- BUTTON ---------- */
@@ -68,7 +68,7 @@ body {
     font-weight: 700;
     text-decoration: none;
     color: #303030;
-    border: 1px solid #EC407A;
+    border: 1px solid #FF3366;
     border-radius: 12px;
     transition: background-color 0.2s, border 0.2s;
 }
@@ -76,7 +76,7 @@ body {
 .btn:hover,
 .btn:active {
     background-color: rgb(240, 240, 240);
-    color: #EC407A;
+    color: #FF3366;
 }
 
 /* ----------------------------------------------------------- */
@@ -108,7 +108,7 @@ textarea {
 
 *:focus { 
     outline: none;
-    color: #EC407A;
+    color: #FF3366;
 }
 
 h1 {
