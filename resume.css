@@ -39,11 +39,11 @@ h2 {
 
 h2 span {
     font-weight: 300;
-    color: #EC407A
+    color: #FF3366
 }
 
 h2::after {
-    border-bottom: solid 1px #EC407A;
+    border-bottom: solid 1px #FF3366;
     border-bottom-width: 58px;
 }
 
@@ -83,16 +83,16 @@ h3 {
 }
 
 .navbar li a:hover,
-.navbar li a:active { color: #EC407A; }
+.navbar li a:active { color: #FF3366; }
 
 .navbar li a.active:link,
 .navbar li a.active:active {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .navbar li a.active:hover,
 .navbar li a.active:visited {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 /* ----------------------------------------------------------- */
@@ -176,7 +176,7 @@ footer {
 }
 
 .footerbar li a:hover,
-.footerbar li a:active { color: #EC407A; }
+.footerbar li a:active { color: #FF3366; }
 
 .signature p {
     color: #aaa;
@@ -189,12 +189,12 @@ footer {
 
 .footerbar li a.active:link,
 .footerbar li a.active:active {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .footerbar li a.active:hover,
 .footerbar li a.active:visited {
-    color: #EC407A;
+    color: #FF3366;
 }
 
-.signature span { color: #EC407A }
+.signature span { color: #FF3366 }
