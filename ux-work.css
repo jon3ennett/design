@@ -183,6 +183,10 @@ p span {
     margin-top: 90px;
 }
 
+.pixel-perfect {
+    margin-top: -135px;
+}
+
 .site-implementation {
     margin-bottom: -130px;
     margin-top: -10px;
