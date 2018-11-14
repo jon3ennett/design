@@ -21,6 +21,22 @@ body {
     margin: 0px auto;
 }
 
+.span-1-of-2 img {
+	width: 100%;
+}
+
+.span-1-of-2 p {
+	margin: 25% 0;
+}
+
+.span-1-of-2 {
+	margin-bottom: 80px;
+}
+
+.span-1-of-3 img {
+    width: 100%
+}
+
 /* ---------- HEADERS ---------- */
 
 h1 {
@@ -112,16 +128,16 @@ h4 span {
 }
 
 .navbar li a:hover,
-.navbar li a:active { color: #EC407A; }
+.navbar li a:active { color: #FF3366; }
 
 .navbar li a.active:link,
 .navbar li a.active:active {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .navbar li a.active:hover,
 .navbar li a.active:visited {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .left-navbar {
@@ -134,26 +150,31 @@ h4 span {
 /* ---------- BODY ---------- */
 /* ----------------------------------------------------------- */
 
+
+
 .section-intro {
     margin-top: -60px;
 }
 
+.brief {
+    margin-bottom: 130px;
+}
+
+#identity {
+    margin-bottom: 100px;
+}
+
 .section-full-width img {
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .section-full-width img {
     margin-top: 90px;
 }
 
-.center {
-    text-align: center;
-}
-
-
-.center-title {
-    text-align: center;
-    margin-bottom: -70px;
+.wireframing {
+    margin-top: -120px;
 }
 
 p {
@@ -166,16 +187,34 @@ p span {
     font-weight: 700;
 }
 
+#mock-up-1 {
+    margin-top: 200px;
+    margin-bottom: -10px;
+}
+
+#mock-up-2 {
+    margin-top: 180px;
+    margin-bottom: -10px;
+}
+
+.mock-up-img {
+    margin-bottom: 20px;
+}
+
+.span-1-of-3 p {
+    margin-top: 250px;
+}
+
+.coding {
+    margin-bottom: -50px;
+}
+
 .row-color {
-    background-color: rgb(240, 240, 240)
+    background-color: rgb(240, 240, 240);
 }
 
 .section-break img {
     margin-bottom: 10px;
-}
-
-.home-image {
-    margin-top: -60px;
 }
 
 .content-dev {
@@ -198,7 +237,7 @@ p span {
 
 .section-full-width a {
     text-decoration: none;
-    color: #EC407A
+    color: #FF3366
 }
 
 .bottom-nav {
@@ -224,7 +263,7 @@ p span {
 }
 
 .bottom-nav a:hover,
-.bottom-nav a:active { color: #EC407A; }
+.bottom-nav a:active { color: #FF3366; }
 
 /* ----------------------------------------------------------- */
 /* ---------- FOOTER ---------- */
@@ -258,7 +297,7 @@ footer {
 }
 
 .footerbar li a:hover,
-.footerbar li a:active { color: #EC407A; }
+.footerbar li a:active { color: #FF3366; }
 
 .signature p {
     color: #aaa;
@@ -271,16 +310,16 @@ footer {
 
 .footerbar li a.active:link,
 .footerbar li a.active:active {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .footerbar li a.active:hover,
 .footerbar li a.active:visited {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .signature span { 
-    color: #EC407A;
+    color: #FF3366;
     font-weight: 300;
 }
 
