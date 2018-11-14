@@ -112,16 +112,16 @@ h4 span {
 }
 
 .navbar li a:hover,
-.navbar li a:active { color: #EC407A; }
+.navbar li a:active { color: #FF3366; }
 
 .navbar li a.active:link,
 .navbar li a.active:active {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .navbar li a.active:hover,
 .navbar li a.active:visited {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .left-navbar {
@@ -212,7 +212,7 @@ p span {
 
 .section-full-width a {
     text-decoration: none;
-    color: #EC407A
+    color: #FF3366
 }
 
 .bottom-nav {
@@ -238,7 +238,7 @@ p span {
 }
 
 .bottom-nav a:hover,
-.bottom-nav a:active { color: #EC407A; }
+.bottom-nav a:active { color: #FF3366; }
 
 /* ----------------------------------------------------------- */
 /* ---------- FOOTER ---------- */
@@ -272,7 +272,7 @@ footer {
 }
 
 .footerbar li a:hover,
-.footerbar li a:active { color: #EC407A; }
+.footerbar li a:active { color: #FF3366; }
 
 .signature p {
     color: #aaa;
@@ -285,16 +285,16 @@ footer {
 
 .footerbar li a.active:link,
 .footerbar li a.active:active {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .footerbar li a.active:hover,
 .footerbar li a.active:visited {
-    color: #EC407A;
+    color: #FF3366;
 }
 
 .signature span { 
-    color: #EC407A;
+    color: #FF3366;
     font-weight: 300;
 }
 
